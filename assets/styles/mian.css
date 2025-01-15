@@ -557,4 +557,16 @@ body {
   font-size: 14px;
   line-height: 185%;
   color: #e58411;
+}
+
+.materials-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+  position: relative;
+}
+.materials-sec .materials-photo-sec {
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=mian.css.map */

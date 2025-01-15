@@ -665,3 +665,18 @@ body {
         }
     }
 }
+
+.materials-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 80px;
+    position: relative;
+
+    .materials-photo-sec {
+        display: flex;
+        align-items: center;
+
+
+    }
+}
