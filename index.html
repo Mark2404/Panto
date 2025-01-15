@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./assets/styles/mian.css">
     <title>Panto</title>
 </head>
@@ -30,7 +31,9 @@
                     <div class="cart-sec">
                         <img src="./assets/icons/Bag.svg" alt="">
                         <div id="circle">
-                            <p id="=circle-count">0</p>
+                            <div id="counter">
+                                0
+                            </div>
                         </div>
 
                     </div>
@@ -124,6 +127,322 @@
             </div>
         </div>
     </div>
+    <div class="selling-sec">
+        <div class="selling container">
+            <div class="selling__title">
+                <h1>Best Selling Product</h1>
+                <div class="selling__title__buttons">
+                    <button class="fl-buttons title-button-active">Chair</button>
+                    <button class="fl-buttons" data-value="Beds">Beds</button>
+                    <button class="fl-buttons" data-value="Sofa">Sofa</button>
+                    <button class="fl-buttons" data-value="Lamp">Lamp</button>
+
+                </div>
+
+            </div>
+            <!-- <div class="products">
+                <div class="product">
+                    <img id="product" src="./assets/imgs/chair1.svg" alt="">
+                    <div class="product__title">
+                        <p id="productp">Chair</p>
+                        <b id="prouductb">Sakarias Armchair</b>
+                        <img src="./assets/icons/stars.svg" alt="">
+                    </div>
+                    <div class="product__price">
+                        <div class="dollar">
+                            <b>$</b>
+                            <b>392</b>
+
+                        </div>
+
+                        <button>
+                            <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img id="product" src="./assets/imgs/chair3.svg" alt="">
+                    <div class="product__title">
+                        <p id="productp">Chair</p>
+                        <b id="prouductb">Baltsar Chair</b>
+                        <img src="./assets/icons/stars.svg" alt="">
+                    </div>
+                    <div class="product__price">
+                        <div class="dollar">
+                            <b>$</b>
+                            <b>200</b>
+
+                        </div>
+
+                        <button>
+                            <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="product">
+                    <img id="product" src="./assets/imgs/chair2.svg" alt="">
+                    <div class="product__title">
+                        <p id="productp">Chair</p>
+                        <b id="prouductb">Sakarias Armchair</b>
+                        <img src="./assets/icons/stars.svg" alt="">
+                    </div>
+                    <div class="product__price">
+                        <div class="dollar">
+                            <b>$</b>
+                            <b>292</b>
+
+                        </div>
+                        <button>
+                            <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                        </button>
+
+                    </div>
+
+                </div>
+            </div> -->
+            <div class="swiper mySwiper karusel">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="products">
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair1.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b>392</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair3.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Baltsar Chair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b>200</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair2.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b class="price">292</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products">
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair1.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b>392</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair3.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Baltsar Chair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b class="price">200</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair2.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b class="price">292</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="products">
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair1.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b class="">392</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair3.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Baltsar Chair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b>200</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                            <div class="product">
+                                <img id="product" src="./assets/imgs/chair2.svg" alt="">
+                                <div class="product__title">
+                                    <p class="productp">Chair</p>
+                                    <b id="prouductb">Sakarias Armchair</b>
+                                    <img src="./assets/icons/stars.svg" alt="">
+                                </div>
+                                <div class="product__price">
+                                    <div class="dollar">
+                                        <b>$</b>
+                                        <b>292</b>
+
+                                    </div>
+
+                                    <button class="plus-btn">
+                                        <img src="./assets/icons/bx_bx-plus.svg" alt="">
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <div class="view-more-link">
+                <button id="all">view all</button>
+                <img id="all" src="./assets/icons/array.svg" alt="">
+
+            </div>
+        </div>
+
+    </div>
+    <div class="experience-sec container">
+        <div class="bg-img-sec">
+            <div id="bg-div1" class="bg-div">
+            </div>
+            <div id="bg-div2" class="bg-div">
+            </div>
+            <img src="./assets/imgs/experience-bg.svg" alt="">
+        </div>
+        <div class="text-sec">
+            <b>experiences</b>
+            <h1>we provide you the best experience</h1>
+            <p>You don’t have to worry about the result because all of these interiors are made by people who are
+                professionals in their fields with an elegant and lucurious style and with premium quality materials</p>
+            <div>
+                <a href="#">More Info</a>
+                <img src="./assets/icons/array.svg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+
 
 
 
@@ -134,6 +453,29 @@
 
 
 </body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+            el: ".swiper-pagination",
+        },
+    });
+</script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
 <script src="./app.js"></script>
 
 </html>
